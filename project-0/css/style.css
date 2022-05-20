@@ -1,0 +1,73 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+}
+@media (min-width: 35.9rem) {
+  .navbar {
+    opacity: 0.8 !important;
+  }
+}
+@media (max-width: 35.9rem) {
+  .nav-item {
+    text-align: center;
+    align-self: center;
+    font-size: large;
+    font-family: sans-serif;
+    padding: 0.5rem 0;
+  }
+  .bg-dark {
+    --bs-bg-opacity: 0.9 !important;
+    backdrop-filter: blur(0.2rem);
+  }
+}
+
+/* #home-section {
+  background: url("/imgs/looplab/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+} */
+
+/* **************************************** */
+/********** Section Hero****************** */
+/* **************************************** */
+#home-section {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(11, 11, 11, 0.9),
+      rgba(102, 102, 102, 0.7)
+    ),
+    url("/imgs/looplab/home.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 41rem;
+}
+
+#home-section .home-inner {
+  padding-top: 5rem;
+}
+#cf711f #e67e22 #fdf2e9 #home-section .card-form {
+  opacity: 0.8;
+}
+
+#explore-section .fa,
+#share-section .fa {
+  background: #333;
+  color: #fff;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+#create-section .fa {
+  background: #fff;
+  color: #008ed6;
+  padding: 0.3rem;
+  border-radius: 5px;
+}

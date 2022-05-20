@@ -1,0 +1,100 @@
+.navbar .nav-link {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 0 1rem !important;
+}
+.navbar .nav-link .active {
+  border-left: 1px solid #666;
+}
+
+.carousel-item {
+  height: 29rem;
+}
+
+.carousel-image-1 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(2, 2, 2, 0.7),
+      rgba(11, 11, 11, 0.9)
+    ),
+    url("/imgs/glozzom/image1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-2 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(2, 2, 2, 0.7),
+      rgba(11, 11, 11, 0.9)
+    ),
+    url("/imgs/glozzom/image2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-3 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(2, 2, 2, 0.7),
+      rgba(11, 11, 11, 0.9)
+    ),
+    url("/imgs/glozzom/image3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#home-heading {
+  overflow: hidden;
+  min-height: 12rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(2, 2, 2, 0.7),
+      rgba(11, 11, 11, 0.9)
+    ),
+    url("/imgs/glozzom/lights.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+#video-Play {
+  overflow: hidden;
+  min-height: 12rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(2, 2, 2, 0.7),
+      rgba(11, 11, 11, 0.9)
+    ),
+    url("/imgs/glozzom/media.jpg");
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.dark-overlay {
+  backdrop-filter: blur(5px);
+}
+
+#video-Play a {
+  color: #fff;
+}
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.btn-close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

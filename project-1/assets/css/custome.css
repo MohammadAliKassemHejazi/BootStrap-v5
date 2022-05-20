@@ -1,0 +1,110 @@
+body {
+  margin-top: 100px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+.card {
+  font-weight: 450;
+  line-height: 1.4;
+}
+
+#showcase {
+  position: relative;
+  background: url("/imgs/mizuxe/mountains.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+#showcase .primary-overlay {
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+#authors .card {
+  margin-top: 100px;
+}
+
+#authors img {
+  margin-top: -50px;
+}
+#authors .fa-brands {
+  color: white;
+}
+#authors .card-body {
+  padding: 1rem 0.5rem !important;
+}
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+#authors .fab {
+  color: #fff;
+}
+@media (max-width: 61.5rem) {
+  #showcase {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 48rem) {
+  #showcase {
+    min-height: 450px;
+  }
+  #showcase h1 {
+    font-size: 3.5rem;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+  .nav-item {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 0.5rem 0.2rem;
+  }
+  .bg-light {
+    opacity: 1 !important;
+    backdrop-filter: blur(0.6rem) !important;
+    background-color: transparent !important;
+  }
+}
+
+@media (max-width: 32rem) {
+  #showcase h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  #showcase {
+    min-height: 400px;
+  }
+  #showcase h1 {
+    font-size: 2.5rem;
+  }
+  #showcase p {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
